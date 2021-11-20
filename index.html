@@ -9,8 +9,8 @@
     <title>Delani-studio</title>
   </head>
   <body>
-    <div class="text-white text-center">
-      <div class="landing">
+    <div class="landing">
+      <div class="text-white text-center">
         <img id="logo" src="/images/logo/logo.png" alt="delani logo" />
         <h1>WELCOME</h1>
         <h1>TO DELANI STUDIO</h1>
@@ -21,8 +21,8 @@
       </div>
     </div>
 
-    <div class="text-center">
-      <h2>ABOUT US</h2>
+    <div class="text-center about">
+      <h2 class="margin">ABOUT US</h2>
       <p>
         When you work with us, you are part of a team of committed
         collaborators. All aspects of our software development process are
@@ -42,9 +42,9 @@
       .
       <p>Then we help translate them into efficient and elegant solutions</p>
     </div>
-    <div class="text-white text-center">
-      <div class="text-serv">
-        <h2>SERVICES</h2>
+    <div class="services">
+      <div class="text-white text-center">
+        <h2 class="margin">SERVICES</h2>
         <p>
           We take time to understand your product vision, before our team signs
           or writes a line of code.
@@ -62,9 +62,9 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container wedo">
       <div class="text-center">
-        <h2>WHAT WE DO</h2>
+        <h2 class="bigmargin">WHAT WE DO</h2>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
@@ -120,8 +120,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <h2>PORTFOLIO</h2>
+      <div class="text-center">
+        <h2 class="margin">PORTFOLIO</h2>
       </div>
       <div class="row">
         <div class="col-md-3">
@@ -224,15 +224,15 @@
         </div>
       </div>
     </div>
-    <div class="text-center text-whit form">
-      <h2>CONTACT US</h2>
+    <div class="text-white form">
+      <h2 class="margin text-center">CONTACT US</h2>
       <form id="form1">
-        <div>
+        <div class="row">
           <input
             type="text"
             name="username"
             id="username"
-            class="form-contol input"
+            class="form-contol input1"
             placeholder="USERNAME..."
             required
           />
@@ -240,19 +240,20 @@
             type="email"
             name="email"
             id="email"
-            class="form-control input"
+            class="form-control input1"
             placeholder="name@email.com"
             required
           />
         </div>
+
         <textarea
           name="message"
           id="message"
-          cols="100"
+          cols="90"
           rows="8"
           placeholder="write your message here"
         ></textarea>
-        <input type="submit" value="submit" />
+        <input class="submit" type="submit" value="submit" />
       </form>
     </div>
     <div class="container-fluid">
