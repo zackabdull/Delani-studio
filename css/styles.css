@@ -1,0 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+.landing {
+  background-image: url(/images/backgrounds/h_img.jpg);
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 16%;
+}
