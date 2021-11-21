@@ -67,3 +67,12 @@ body {
   text-align: center;
   background: transparent;
 }
+#design-txt {
+  display: none;
+}
+#development-txt {
+  display: none;
+}
+#product-txt {
+  display: none;
+}
