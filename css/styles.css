@@ -77,7 +77,7 @@ body {
 #product-txt {
   display: none;
 }
-.work1-overlay,
+#work1-overlay,
 .work2-overlay,
 .work3-overlay,
 .work4-overlay,
@@ -86,14 +86,38 @@ body {
 .work7-overlay,
 .work8-overlay {
   display: none;
-  background-color: black;
   opacity: 0.7;
   position: absolute;
   top: 0;
   bottom: 0;
   width: 90%;
+  background-color: rgba(255, 255, 255, 0.456);
+  position: absolute;
 }
 .part1 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+#mouse {
+  padding-top: 22px;
+  margin-top: 10%;
+  padding-bottom: 30px;
+}
+#mouse {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
