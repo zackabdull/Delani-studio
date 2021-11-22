@@ -3,7 +3,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .landing {
-  background-image: url(/images/backgrounds/h_img.jpg);
+  background-image: url("../images/backgrounds/h_img.jpg");
 
   background-position: center;
   text-align: center;
@@ -12,7 +12,7 @@ body {
   padding: 16%;
 }
 .services {
-  background-image: url(/images/backgrounds/s_image.jpg);
+  background-image: url("../images/backgrounds/s_image.jpg");
   background-size: cover;
   margin-top: 6rem;
   margin-bottom: 6rem;
@@ -28,7 +28,7 @@ body {
   margin-bottom: 8rem;
 }
 .form {
-  background-image: url(/images/backgrounds/c_image.jpg);
+  background-image: url("../images/backgrounds/c_image.jpg");
   background-size: cover;
   padding: 10%;
 }
