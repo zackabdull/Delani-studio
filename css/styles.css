@@ -77,23 +77,7 @@ body {
 #product-txt {
   display: none;
 }
-#work1-overlay,
-.work2-overlay,
-.work3-overlay,
-.work4-overlay,
-.work5-overlay,
-.work6-overlay,
-.work7-overlay,
-.work8-overlay {
-  display: none;
-  opacity: 0.7;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 90%;
-  background-color: rgba(255, 255, 255, 0.456);
-  position: absolute;
-}
+
 .part1 {
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -120,4 +104,151 @@ body {
   60% {
     transform: translateY(-15px);
   }
+}
+.work1 {
+  background-image: url("../images/portfolio/work1.jpg");
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 10%;
+}
+.work2 {
+  background-image: url("../images/portfolio/work2.jpg");
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 10%;
+}
+.work3 {
+  background-image: url("../images/portfolio/work3.jpg");
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 10%;
+}
+.work4 {
+  background-image: url("../images/portfolio/work4.jpg");
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 10%;
+}
+.work5 {
+  background-image: url("../images/portfolio/work5.jpg");
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 10%;
+}
+.work6 {
+  background-image: url("../images/portfolio/work6.jpg");
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 10%;
+}
+.work7 {
+  background-image: url("../images/portfolio/work7.jpg");
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 10%;
+}
+.work8 {
+  background-image: url("../images/portfolio/work8.jpg");
+
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 10%;
+}
+#work1 {
+  opacity: 0;
+}
+
+#work1:hover {
+  opacity: 1;
+  background-color: wheat;
+  padding: 5%;
+}
+#work2 {
+  opacity: 0;
+}
+
+#work2:hover {
+  opacity: 1;
+  background-color: wheat;
+  padding: 5%;
+}
+#work3 {
+  opacity: 0;
+}
+
+#work3:hover {
+  opacity: 1;
+  background-color: wheat;
+  padding: 5%;
+}
+#work4 {
+  opacity: 0;
+}
+
+#work4:hover {
+  opacity: 1;
+  background-color: wheat;
+  padding: 5%;
+}
+#work5 {
+  opacity: 0;
+}
+
+#work5:hover {
+  opacity: 1;
+  background-color: wheat;
+  padding: 5%;
+}
+#work6 {
+  opacity: 0;
+}
+
+#work6:hover {
+  opacity: 1;
+  background-color: wheat;
+  padding: 5%;
+}
+#work7 {
+  opacity: 0;
+}
+
+#work7:hover {
+  opacity: 1;
+  background-color: wheat;
+  padding: 5%;
+}
+#work8 {
+  opacity: 0;
+}
+
+#work8:hover {
+  opacity: 1;
+  background-color: wheat;
+  padding: 5%;
+}
+.portfolio {
+  margin-bottom: 1rem;
 }
